@@ -17,6 +17,9 @@ import time
 #The user is also able to chose to view raw data and to sort this data by columns,
 #in ascending or descending order.
 
+def welcome_message(df):
+    print('Hello Welcocme to the Bike Share')
+
 
 def enterCity():
 
