@@ -8,6 +8,11 @@ import time
 #new_york_city = 'new_york_city.csv'
 #washington = 'washington.csv'
 
+#Added this below function as part of documentation changes.
+
+def documentation(df):
+
+    print('The documentation updated ')
 
 def enterCity():
 

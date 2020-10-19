@@ -15,3 +15,6 @@ washington.csv
 
 ### Credits
 I would like give the credits for this project is whole udacity mentors and classroom who were instrumental helping me to implement the required project statistics.
+
+##Update
+This file has been updated by shyam on 10/18/2020
