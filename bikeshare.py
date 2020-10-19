@@ -3,16 +3,34 @@ from datetime import datetime
 from datetime import timedelta
 import time
 
-## Filenames
+# Filenames
 #chicago = 'chicago.csv'
 #new_york_city = 'new_york_city.csv'
 #washington = 'washington.csv'
-
 #Added this below function as part of documentation changes.
 
 def documentation(df):
 
     print('The documentation updated ')
+#reduce the whitespace for for readablity.
+
+##Descrption of the Project
+#The developed  program allows the user to explore an US bikeshare system database
+#and retrieve statistics information from the database.
+#The user is able filter the information by city, month and weekday,
+#in order to visualize statistics information related to a specific subset of data.
+#The user is also able to chose to view raw data and to sort this data by columns,
+#in ascending or descending order.
+
+def welcome_message(df):
+    print('Hello Welcocme to the Bike Share')
+
+def checkGender(df):
+    Is_male = df.query('gender == "Male"')
+    if(Is_male)
+        print('User is Male')
+    Is_female = df.query('gender == "Female"')
+        print('User is Female')
 
 def enterCity():
 
@@ -284,8 +302,6 @@ def ComputeStats():
     print("\n #3 Trip duration..")
     start_time = time.time()
 
-
-
     common_trip(df_filtered)
     print("That took %s seconds." % (time.time() - start_time))
     print("\n Most common trip..")
@@ -311,8 +327,6 @@ def ComputeStats():
 
 
     DispData(df_filtered)
-
-
     restart = input('\nWould you like to restart? Type \'yes\' or \'no\'.\n')
     while restart.lower() not in ['yes', 'no']:
         print("Invalid input. Please type 'yes' or 'no'.")
