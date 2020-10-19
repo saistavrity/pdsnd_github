@@ -20,6 +20,12 @@ import time
 def welcome_message(df):
     print('Hello Welcocme to the Bike Share')
 
+def checkGender(df):
+    Is_male = df.query('gender == "Male"')
+    if(Is_male)
+        print('User is Male')
+    Is_female = df.query('gender == "Female"')
+        print('User is Female')
 
 def enterCity():
 
